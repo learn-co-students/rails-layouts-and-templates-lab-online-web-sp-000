@@ -11,7 +11,7 @@ also how to override defaults and specify layouts on the action level.
 
 1. Make a new controller called `StaticController`.
 
-2. Create a home view with an `h2` that says "Welcome to Flatiron Widgets" and a
+2. Crete a home view with an `h2` that says "Welcome to Flatiron Widgets" and a
    new action in `StaticController` called `home`.
 
 3. Create a default application layout at the correct location, and add an `h1`
