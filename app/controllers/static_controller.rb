@@ -1,6 +1,7 @@
-class StaticControllerController < ApplicationController
+class StaticController < ApplicationController
 
   def home
+    # render :layout
 
   end
 
