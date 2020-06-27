@@ -2,14 +2,14 @@ class StoreAdminController < ApplicationController
    layout 'admin'
 
    def home    
-      render :layout => 'home'      
+      # render :layout => 'home'      
    end 
 
    def admin 
    end 
 
    def orders 
-      render :store_admin => 'order_administration'
+      render :layout => 'order_administration'
    end 
 
    def invoice 
