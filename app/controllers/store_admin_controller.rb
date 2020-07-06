@@ -10,7 +10,7 @@ class StoreAdminController < ApplicationController
     end
 
     def invoice
-        render :layout => "static"
+        render :layout => "false"
     end  
 
   end
