@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
-
-
+#assert_template has been extracted to a gem. To continue using it, add
+gem 'rails-controller-testing'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails'
 # Use sqlite3 as the database for Active Record
