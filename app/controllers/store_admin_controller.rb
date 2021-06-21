@@ -1,5 +1,5 @@
 class StoreAdminController < ApplicationController
-    layout "admin"
+    layout 'admin'
 
     def home
     end
@@ -11,4 +11,6 @@ class StoreAdminController < ApplicationController
     def invoice 
         render :layout => false
     end
+
+    
 end
